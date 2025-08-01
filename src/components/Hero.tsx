@@ -4,7 +4,7 @@ import PabloCanutoImg from '../assets/img/pablo-canuto.png'
 
 const Hero = () => {
   return (
-    <section id="inicio" className="min-h-screen bg-[#002C53] relative overflow-hidden">
+    <section id="inicio" className="min-h-screen pb-20 pt-28 lg:pb-0 lg:pt-0 bg-[#002C53] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-br from-[#E2D0A1] to-transparent"></div>

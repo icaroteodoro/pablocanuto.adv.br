@@ -79,8 +79,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-[#E2D0A1] flex-shrink-0 mt-0.5" />
                 <span className="text-gray-400 text-sm">
-                  Av. Paulista, 1000<br />
-                  São Paulo/SP
+                  Maribondo - AL
                 </span>
               </li>
             </ul>
@@ -96,8 +95,8 @@ const Footer = () => {
               © 2025 - Pablo Canuto Advocacia. Todos os direitos reservados.
             </p>
             <p className="text-gray-500 text-xs text-center md:text-right">
-              Desenvolvido com excelência por{' '}
-              <span className="text-[#E2D0A1]">BoltDev</span>
+              Desenvolvido por{' '}
+              <span className="text-[#E2D0A1]">Ícaro Teodoro</span>
             </p>
           </div>
         </div>

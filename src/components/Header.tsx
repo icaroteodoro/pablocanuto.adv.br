@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
+import LogoHeader from '../assets/img/favicon.png';
+
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,7 +33,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img src="/src/assets/img/favicon.png" alt="" />
+            <img src={LogoHeader} alt="Logo - Pablo Canuto" />
             <div>
               <h1 className={`font-cinzel text-xl font-medium mb-0 transition-colors ${
                 isScrolled ? 'text-[#002C53]' : 'text-[#E2D0A1]'

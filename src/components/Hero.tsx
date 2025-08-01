@@ -1,5 +1,7 @@
 import { ArrowRight, Phone } from 'lucide-react';
 
+import PabloCanutoImg from '../assets/img/pablo-canuto.png'
+
 const Hero = () => {
   return (
     <section id="inicio" className="min-h-screen bg-[#002C53] relative overflow-hidden">
@@ -35,7 +37,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-96 h-[500px] bg-gradient-to-b from-gray-300 to-gray-500 rounded-lg shadow-2xl relative overflow-hidden">
                 <div className="absolute inset-0 bg-black bg-opacity-20 p-2">
-                  <img src="/src/assets/img/pablo-canuto.png" alt="Pablo Canuto" />
+                  <img src={PabloCanutoImg} alt="Pablo Canuto" />
                 </div>
                 <div className="absolute bottom-4 left-4 right-4">
                   <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-4">
